@@ -177,7 +177,7 @@ char *string_CIMVAR(TALLOC_CTX *mem_ctx, union CIMVAR *v, enum CIMTYPE_ENUMERATI
 int main(int argc, char **argv)
 {
         progr_args_t *args = init_program_args();
-	uint32_t cnt = 5, ret;
+	uint32_t cnt = 100, ret;
 	char *class_name = NULL;
 	WERROR result;
 	NTSTATUS status;
